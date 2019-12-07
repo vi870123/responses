@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<link href="styles.css" rel="stylesheet">
+<html lang="en">
+<title>Reading Responses</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+
+<link rel="stylesheet" href="https://eyeondesign.aiga.org/the-web-designer-exposing-the-humanity-and-humor-of-the-internet/">
+<link rel="stylesheet" href="http://elupton.com/2010/10/the-designer-as-producer/">
+<a href="http://luckysoap.com/statements/handmadeweb.html">Reading 1</a>
+<a href="https://eyeondesign.aiga.org/the-web-designer-exposing-the-humanity-and-humor-of-the-internet/">Reading 2</a>
+<a href="http://elupton.com/2010/10/the-designer-as-producer/">Reading 3</a>
+<body>
+
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">A Handmade Web</h1>
+      <p>This article is very cool and I think the author make a very fun metaphor about "a handmade wed" .</p>
+    </div>
+    <div class="w3-third w3-container">
+
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">The Web Designer Exposing the Humanity and Humor of the Internet</h1>
+      <p>First, this wed attracts me the most is the eye around the page, this wed give me very good vibe and the colors they used let me feel happy and relex; also, the design is very unique and fun</p>
+    </div>
+    <div class="w3-third w3-container">
+
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">The Designer as Producer</h1>
+      <p>Those are the part I really like in this article.
+      Language is a raw material.* Enhance students’ verbal literacy, giving them the confidence to work with and as editors, without forcing them to become writers.
+
+
+Theory is a practice.* Foster literacy by integrating the humanities into the studio. Infuse the act of making with the act of thinking.
+
+
+Writing is a tool.* Casual writing experiences encourage students to use writing as a device for “prototyping,” to be employed alongside sketching, diagramming, and other forms of conceptualization.
+
+
+Technology is physical.* Whether the product of our work is printed on paper or emitted from a screen, designers deal with the human, material response to information.
+
+
+The medium is on the menu.* Familiarize students with the many ways that information and ideas are disseminated in contemporary life. Give them the tools to find their rightful place in the food chain..</p>
+    </div>
+    <div class="w3-third w3-container">
+
+    </div>
+  </div>
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Yun- CHI, YANG</h4>
+    </div>
+
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
